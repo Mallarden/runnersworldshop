@@ -1,10 +1,10 @@
 /*
-Theme Name:     Leto-child
+Theme Name:     Leto-child2
 Theme URI:      https://www.dimp.no
-Description:    
-Author:         
-Author URI:     
-Template:       
+Description:
+Author:
+Author URI:
+Template: Leto
 Version:        0.1.0
 Text Domain:    
 */
@@ -193,13 +193,15 @@ Text Domain:
   height: auto;
 }
 
-.wc-block-grid__product-add-to-cart a, .wc-block-grid__product-add-to-cart button {
+.wc-block-grid__product-add-to-cart a,
+.wc-block-grid__product-add-to-cart button {
   border-radius: 0;
   font-size: 1.2em;
   padding: 6px 12px;
 }
 
-.wc-block-grid.has-4-columns:not(.alignwide):not(.alignfull) .wc-block-grid__product {
+.wc-block-grid.has-4-columns:not(.alignwide):not(.alignfull)
+  .wc-block-grid__product {
   font-size: 1em;
 }
 
@@ -217,7 +219,10 @@ Text Domain:
   padding: 30px;
 }
 
-.woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit {
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit {
   font-size: 14px;
   /* float: right; */
   padding: 18px;
@@ -231,16 +236,19 @@ Text Domain:
   font-size: 14px;
 }
 
-.woocommerce .cart-mini-wrapper p.buttons a, .woocommerce .cart-mini-wrapper p.buttons a, .cart-mini-wrapper p.buttons a {
+.woocommerce .cart-mini-wrapper p.buttons a,
+.woocommerce .cart-mini-wrapper p.buttons a,
+.cart-mini-wrapper p.buttons a {
   font-size: 12px;
 }
 
-.post-type-archive-product ul.products .product-category:nth-of-type(2n+1) {
+.post-type-archive-product ul.products .product-category:nth-of-type(2n + 1) {
   clear: left;
   display: none;
 }
 
-.woocommerce.single-product .cart, .woocommerce .single-product .cart {
+.woocommerce.single-product .cart,
+.woocommerce .single-product .cart {
   margin-top: 1em;
 }
 
